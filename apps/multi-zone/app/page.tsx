@@ -4,10 +4,10 @@ export default function Home() {
   return (
       <div className={styles.left}>
         <iframe
-        src="http://localhost:3001"
+        src="https://my-turborepo-web-nu.vercel.app/"
       />
       <iframe
-        src="http://localhost:3000"
+        src="https://my-turborepo-docs-lilac.vercel.app/"
       />
     </div>
   );
